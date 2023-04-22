@@ -27,11 +27,14 @@ return {
     ["<leader>FD"] = { "<cmd>FlutterDevices<cr>", desc = "Get devices for Flutter" },
     ["<leader>FSIM"] = { "<cmd>FlutterEmulators<cr>", desc = "Get sim/em devices for Flutter" },
     ["<leader>Flr"] = { "<cmd>FlutterRename<cr>", desc = "Flutter rename and update imports" },
-    -- quick save
-    -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  i = {
+    ["<F1>"] = { 'copilot#Accept("<CR>")', silent = true, expr = true },
+    ["<F2>"] = { 'copilot#Next()', silent = true, expr = true },
+    ["<F3>"] = { 'copilot#Previous()', silent = true, expr = true },
+  }
 }
