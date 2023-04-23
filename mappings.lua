@@ -24,6 +24,7 @@ return {
     ["<leader>td"] = { "<cmd>TodoTelescope<cr>", desc = "Show Todos in project" },
     ["<leader>FRUN"] = { "<cmd>FlutterRun<cr>", desc = "Run current flutter project" },
     ["<leader>FR"] = { "<cmd>FlutterReload<cr>", desc = "Flutter hot reload" },
+    ["<leader>Fr"] = { "<cmd>FlutterRestart<cr>", desc = "Flutter Restart" },
     ["<leader>FD"] = { "<cmd>FlutterDevices<cr>", desc = "Get devices for Flutter" },
     ["<leader>FSIM"] = { "<cmd>FlutterEmulators<cr>", desc = "Get sim/em devices for Flutter" },
     ["<leader>Flr"] = { "<cmd>FlutterRename<cr>", desc = "Flutter rename and update imports" },
