@@ -28,6 +28,7 @@ return {
     ["<leader>FD"] = { "<cmd>FlutterDevices<cr>", desc = "Get devices for Flutter" },
     ["<leader>FSIM"] = { "<cmd>FlutterEmulators<cr>", desc = "Get sim/em devices for Flutter" },
     ["<leader>Flr"] = { "<cmd>FlutterRename<cr>", desc = "Flutter rename and update imports" },
+    ["<leader>nf"] = { "<cmd>Neogen<cr>", desc = "Generate documentation for code" },
   },
   t = {
     -- setting a mapping to false will disable it
