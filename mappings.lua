@@ -35,8 +35,8 @@ return {
     -- ["<esc>"] = false,
   },
   i = {
-    ["<F1>"] = { 'copilot#Accept("<CR>")', silent = true, expr = true },
-    ["<F2>"] = { 'copilot#Next()', silent = true, expr = true },
-    ["<F3>"] = { 'copilot#Previous()', silent = true, expr = true },
+    ["<F1>"] = { 'copilot#Accept("<CR>")', silent = true, expr = true, replace_keycodes = false },
+    ["<F2>"] = { 'copilot#Next()', silent = true, expr = true, replace_keycodes = false },
+    ["<F3>"] = { 'copilot#Previous()', silent = true, expr = true, replace_keycodes = false },
   }
 }
